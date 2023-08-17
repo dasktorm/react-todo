@@ -1,0 +1,62 @@
+.container-task {
+    min-width: 100%;
+    border: 1px solid #243b55;
+    border-radius: 5px;
+    display: flex;
+    justify-content:flex-start;
+    cursor: pointer;
+    transition-duration: 0.2s;
+  }
+
+  .container-task:nth-child(odd) {
+    background-color:#e9f4fa
+  }
+
+  .container-task:hover {
+    transform: scale(1.03);
+  }
+
+  .container-task:hover .iconEdit {
+    width: fit-content;
+    padding: 0.3rem 0.5rem;
+  }
+  
+  
+  .container-task.complete {
+    text-decoration: line-through;
+    opacity: 0.8;
+    background-color: #c2c2c2;
+  }
+  
+  .text-task {
+    flex-grow: 1;
+    align-self: center;
+    padding: 0 0.5rem;
+    overflow-wrap: anywhere;
+  }
+  
+  
+  .iconDelete {
+    padding: 0.3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    background: linear-gradient(to right, #16222a, #35586a);
+    border-radius: 4px 0 0 4px;
+  }
+
+  .iconDelete:hover {
+    color: white;
+    background: linear-gradient(to right, #870000, #310909);
+  }
+  
+  .iconEdit {
+    width: 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: black;
+    border-radius: 0 4px 4px 0;
+    transition-duration: 0.2s linear;
+  }

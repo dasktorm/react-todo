@@ -1,0 +1,8 @@
+.clear-Button {
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 0.4rem;
+    border-radius: 5px;
+    min-width: 100%;
+    color: #35557a; 
+  }

@@ -1,0 +1,18 @@
+.form-control {
+    border-width: 2px 0px 2px 2px;
+    border-color: #35557a;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    border-color: #35557a;
+    border-width: 2px;
+    color: #35557a;
+  }
+  .btn:hover {
+    color: white;
+    background-color: #35557a;
+    border-color: #35557a;
+  }
