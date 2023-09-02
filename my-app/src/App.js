@@ -1,6 +1,6 @@
 import './App.css';
-import { Title } from '.Input/Components/Input/Input';
-import { Tasklist } from '.Tasklist/Components/Tasklist/Tasklist';
+import { Title } from './Components/Title/Title.js';
+import { Tasklist } from './Components/Tasklist/Tasklist.js';
 
 function App() {
   return (
